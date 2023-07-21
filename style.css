@@ -36,6 +36,10 @@ a {
     padding: .625rem 1.25rem;
 }
 
+.textos .botoes .entrar {
+    background-color: #66c582;
+}
+
 .item {
     font: 500 1rem 'Lucida', sans-serif;
     padding: 0 1.5rem;
