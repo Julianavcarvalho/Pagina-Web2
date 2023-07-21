@@ -82,10 +82,11 @@ a {
 }
 
 .quadrado {
-    width: 18.75rem;
+    width: 19rem;
     margin: 3.125rem 1.25rem;
-    box-shadow: 5px 5px 5px rgb(112, 112, 112);
+    box-shadow: 5px 5px 3px 5px rgb(112, 112, 112);
     padding: .9375rem;
+    border-radius: 0.2rem;
 }
 
 .container .quadrado h4 {
