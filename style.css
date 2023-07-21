@@ -102,3 +102,28 @@ a {
     height: .0625rem;
     background-color: rgb(122, 118, 118);
 }
+section.descricao {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "form conteudo conteudo"
+    "form conteudo conteudo"
+    ". conteudo conteudo";
+    margin-top: 3.125rem;
+}
+
+.forms {
+    grid-area: form;
+}
+
+.conteudo-descricao2 {
+    grid-area: conteudo;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 1.25rem 1.4rem;
+    
+}
