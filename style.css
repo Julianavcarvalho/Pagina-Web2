@@ -58,3 +58,35 @@ a {
 .quadrado img {
     width: 1.25rem;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    font: 500 1.35rem 'Lucida', sans-serif;
+    margin: 1rem 0 2rem;
+}
+
+.botao {
+    background-color: #30ac55;
+    color: white;
+    padding: .625rem 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(63, 63, 63);
+    font: 500 1rem 'Lucida', sans-serif;
+    margin: 0 1.1rem 0 0;
+}
+
+.quadrado {
+    width: 18.75rem;
+    margin: 3.125rem 1.25rem;
+    
+}
+
+
+.container .quadrado p {
+    text-align: justify;
+}
