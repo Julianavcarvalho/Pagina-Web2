@@ -56,7 +56,7 @@ a {
 }
 
 .quadrado img {
-    width: 1.5rem;
+    width: 3.3rem;
 }
 
 #main .section .container,
@@ -95,4 +95,9 @@ a {
 .container .quadrado p {
     text-align: justify;
     font: 300 0.9rem 'Lucida', sans-serif;
+}
+
+.linha {
+    height: .0625rem;
+    background-color: rgb(122, 118, 118);
 }
